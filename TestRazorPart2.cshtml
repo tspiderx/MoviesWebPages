@@ -1,5 +1,9 @@
 ﻿@{
    var message = "This is the first time you've requested the page.";
+
+   if(IsPost) {
+        message = "Now you've submitted the page.";
+    }
 }
 <!DOCTYPE html>
 <html lang="en">
