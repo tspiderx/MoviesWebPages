@@ -55,7 +55,8 @@
                     grid.Column(format: @<a href="~/EditMovie?id=@item.ID">Edit</a>),
                     grid.Column("Title"),
                     grid.Column("Genre"),
-                    grid.Column("Year")
+                    grid.Column("Year"),
+                    grid.Column(format: @<a href="~/DeleteMovie?id=@item.ID">Delete</a>)
                 )
             )
         </div>
